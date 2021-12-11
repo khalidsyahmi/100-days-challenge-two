@@ -1,6 +1,7 @@
 body {
   font-family: "Quicksand", sans-serif;
   margin: 0px;
+  color: rgb(68, 68, 68); /* inherit all font color to child section */
 }
 
 ul {
@@ -49,4 +50,24 @@ header a {
 header a:hover {
   color: aqua;
   background-color: yellow;
+}
+
+footer {
+  background-color: black;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  width: 80px;
+  height: 80px;
+  margin: 0 50px;
+}
+
+footer img {
+  width: 100%;
+  height: 100%;
 }
