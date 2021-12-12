@@ -47,7 +47,7 @@ header a {
   border-radius: 6px;
 }
 
-header a:hover {
+header nav a:hover {
   color: aqua;
   background-color: yellow;
 }
